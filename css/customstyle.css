@@ -1,0 +1,201 @@
+*{
+    font-family: 'Spectral', serif;
+    font-size:18px;
+}
+section{
+    padding:40px 10%;
+    
+}
+p{
+    color: #738297;
+   
+}
+
+button{
+    border-radius:5px;
+    background-color:#0ea8a6 ;
+    color: white;
+    padding:10px 20px;
+}
+
+#navbar li{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    
+}
+
+.mybtnbordercolor{
+    border-color:#0ea8a6 ;
+}
+.mybtnborderbg{
+    background-color:#0ea8a6 ;
+}
+
+.section-head{
+    text-align: center;
+}
+
+.section-head-title{
+    font-size:32px;
+    color:#354167;
+}
+
+.section-head-title> span{
+    font-size:32px;
+    color:#0ea8a6;
+}
+
+.section-head-desc{
+    font-size:16px
+
+}
+
+.aboutusgrid div{
+    border-color: #0ea8a6;
+    background-color: white;
+}
+
+
+#services{
+    background-image: url(../images/Untitled-6.png), url(../images/Untitled-6.png);
+    background-position: -15% 130%,  115% -15%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+#aboutus{
+    background-image: url(../images/Untitled-5.png), url(../images/Untitled-66.png);    
+    background-repeat: no-repeat,no-repeat; 
+    background-size:30% 70%, 20% 20% ; 
+    background-position-x: left, center; 
+    background-position-y: 20px, bottom;
+}
+
+#howitworks{
+    background-image: url(../images/Untitled-5.png), url(../images/Untitled-66.png);    
+    background-repeat: no-repeat, no-repeat; 
+    background-size:30% 70%, 20% 20% ; 
+    background-position-x: left, center; 
+    background-position-y: 20px, bottom;
+}
+
+#howitworks li{
+    margin-bottom: 10px;
+}
+
+#testimonials{
+    background-image: url(../images/Untitled-6.png);
+    background-position:  120% -50%;
+    background-repeat:  no-repeat;
+}
+
+#pricing{
+    background-image: url(../images/Untitled-66.png), url(../images/Untitled-66.png);    
+    background-repeat: no-repeat,no-repeat; 
+    background-size:15% 15%, 15% 15% ; 
+    background-position-x: 5%, 96%; 
+    background-position-y: 100px, 93%;
+}
+
+
+.steps-item{
+    display:flex;
+    padding:5px;
+
+}
+
+.steps-desc{
+    align-self: center;
+}
+
+/* .steps-logo{
+    padding:10px;
+    border-radius:5px
+} */
+
+.pricing-item{
+    border: dashed 2px #0ea8a6;
+    padding:20px;
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+.pricing-item li{
+    display:flex;
+    gap: 16px;
+    padding: 10px 0;
+    
+}
+
+.price-list-desc{
+    padding-bottom:15px;
+    border-bottom: solid 2px rgb(197, 197, 197);
+    width:100%;
+}
+
+.footer-list li{
+    display: inline-block;
+}
+
+footer li, h1{
+    margin-bottom:10px;
+    color: #738297;
+}
+footer h1{
+    font-weight: bold;   
+}
+
+
+
+.menu{
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    margin-bottom:15px ;
+    transition: all 1s ;
+
+}
+
+#navbarmobile a{
+ color: #738297;
+}
+
+
+
+#readyprompt{
+    width:70%;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    #services{
+        background-size:35% 35%, 35% 30% ; 
+    }
+
+    #pricing{
+        background-size:25% 7%, 25% 7% ; 
+    }
+
+    #readyprompt{
+        width:90%;
+    }
+
+    #howitworks, #aboutus{
+         
+       
+        background-size:30% 40%, 24% 13% ; 
+        
+    }
+
+  }
+
+
+  @media only screen and (min-width: 640px) {
+  #banner{
+    background-position-x:right; 
+    background-image: url(../images/try.png); 
+    background-repeat: no-repeat;
+  }
+  }
