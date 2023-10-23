@@ -1,3 +1,4 @@
 *.json
 *.md
 tailwind.config.json
+.gitignore
