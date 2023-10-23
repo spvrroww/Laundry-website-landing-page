@@ -2,3 +2,4 @@
 *.md
 tailwind.config.json
 .gitignore
+node_modules
